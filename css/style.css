@@ -1,0 +1,618 @@
+/*nav*/
+.nav1 {
+    height: 100px;
+    
+}
+
+#TOP {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #e5293b;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+#TOP:hover {
+    background-color: #163547;
+    color: #e5293b;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #e5293b;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    border-bottom: 3px solid rgb(247, 247, 247);
+}
+
+
+
+.bg-hr {
+    background: #163547;
+}
+
+.styletitle {
+    background: #163547;
+    padding: 1%;
+}
+
+.color-nav {
+    background: #e5293b;
+}
+
+.logoText {
+    text-shadow: 3px 3px rgba(3, 3, 3, 0.8);
+    background: #0b7dda;
+    padding: 1% 2%;
+}
+.imglogo {
+    width:90px;
+    height:90px;
+    margin:5%;
+}
+
+.imgnav {
+    margin: 2%;
+    border: 3px solid blue;
+}
+
+.textnavtop {
+    margin-top: 4%;
+}
+
+
+
+input[type=text]:focus {
+    width: 100%;
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #163547;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    margin: 5px 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+/*nav 2*/
+
+
+
+
+
+.carouseltext {
+  display: table;
+  vertical-align: middle; 
+  margin-top:10%;
+  margin-left: 40%;
+  font-size: 28px;
+}
+.carouseltextbt {
+    margin-bottom:10%;
+    margin-left: 25%;
+}
+
+.carouseltextbt:hover {
+    color: rgb(0, 0, 0);
+    background: #f85d6c;
+}
+
+  
+.carouseltextbt a  {
+    padding: 1%;
+}
+
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 40%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*contact form*/
+.formbg {
+    background: #163547;
+}
+
+.formbg .container {
+    margin: 40px 0;
+}
+.formbg .container .contactForm {
+    margin: 80px 0;
+}
+
+
+
+.GlassWork {
+    margin: 5% auto;
+}
+.GlassWorkTitle {
+    margin: 1% 5% auto;
+}
+/*img overlay work*/
+.containerglass {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imageglass {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayglass {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 90%;
+    -webkit-transform:scale(0);
+    transition: .3s ease;
+  }
+  
+  .containerglass:hover .overlayglass {
+    transform: scale(1)
+}
+  
+  .glass {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}  
+.glassicon {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+} 
+
+
+
+
+/*video*/
+.stockproducts {
+    background: #163547;
+    color: #fff;
+    border: none;
+    margin-top: 4%;
+}
+
+.stockproducts img {
+    width: 300px;
+    height: auto;
+}
+
+.stockproducts i {
+    padding: 1%;
+}
+
+.video-text {
+    border: none;
+    margin: 5%;
+}
+
+.stockproducts .card-body  {
+    margin-left: 3%;
+}
+/*video end*/
+
+/*glass type begin*/
+.GlassColor {
+    margin: 2%;
+}
+
+.GlassColor .card {
+    border:none;
+}
+
+.GlassColor h5 {
+    margin-top: 10%;
+}
+
+.GlassColorTitle {
+    margin: 2% 0;
+}
+.transform:hover {
+    transform: scale(1.4);
+}
+/*glass type end*/
+
+
+
+/*map BEGIN*/
+
+.map1 {
+    width: 100%;
+    height: 180px;
+    background: white;
+    margin-top: 5%;
+    border: 0;
+}
+.map-contact {
+    width: 100%;
+    height: 500px;
+    background: white;
+    margin-bottom: -9%;
+    border: 0;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+.map2 {
+    width: 100%;
+    height: 600px;
+    background: white;
+    margin-top: 4%;
+    position: absolute;
+    z-index: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#contactform {
+    position: relative;
+    z-index: 1;
+    width: 420px;
+    margin: 10% 14% 2% 18%;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    height: auto;
+    opacity: 1;
+    color: #0c2e3b;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#contactform form .form-control {
+    border-radius: 0;
+}
+
+#contactform form {
+    margin: 3% auto;
+}
+
+.vl {
+    border-right: 3px solid #e5293b;
+    height: 30px;
+    position: absolute;
+    top: 6%;
+}
+
+#contactform form h5 {
+    margin-left: 5%;
+    margin-bottom: 8%;
+    font-size: 22px;
+}
+
+#contactform form value {
+    color: black;
+}
+
+select:required:invalid {
+    color: gray;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+option {
+    color: black;
+}
+
+#contactform form button {
+    padding: 2% 4%;
+    color: #fafafa;
+    background:  #e5293b;
+    margin-bottom: 5%;
+}
+
+#contactform form button:hover {
+    padding: 2% 4%;
+    color: #ffffff;
+    background: #0c2e3b;
+}
+
+
+/*map END*/
+
+/*about us BEGIN*/
+.aboutus {
+       box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+.aboutus-p  {
+    background: linear-gradient(to left, #04a6c3 0%,#163547 90%);
+    color: #ffffff;
+    
+}
+
+
+/*about us END*/
+/*footer BEGIN*/
+
+.footer-bg {
+    background-color: #163547;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+footer .card-group {
+    margin: 3% auto;
+}
+
+footer hr {
+    width: 30%;
+    border: none;
+    /* Firefox */
+    color: #e5293b;
+    background-color: #e5293b;
+    /*  Firefox  Opera */
+    height: 2px;
+    margin: 7% 0;
+}
+
+.footer2-hr {
+    width: 100%;
+    border: none;
+    /* Firefox */
+    color: #ffffff;
+    background-color: #ffffff;
+    /*  Firefox  Opera */
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .i {
+    color: #163547;
+}
+
+footer .logo-f {
+    margin-top: 9%;
+    margin-left: 8%;
+    width: 111px;
+    height: 56;
+}
+
+.footer-bg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bg a:hover,
+a:active {
+    color: #e5293b;
+}
+
+.footer-bg span {
+    margin-left: 8%;
+}
+
+.footer-bg p {
+    margin-top: 2%;
+}
+
+.span-f {
+    margin-left: 40%;
+}
+.p-2 {
+    margin: 5% 15%;
+    color: #163547;
+}
+.margin{
+    margin-top: 2%;
+}
+.a-2 {
+    margin: 4% 4%;
+    font-size: 35px;
+}
+.h-2 {
+    margin: 5% 4% 0 4%;
+    font-size: 35px;
+}
+
+.fotershadow {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+/*footer END*/
+
+.contact-page {
+    margin-top: 20%;
+}
+
+.form-contact {
+    margin: 2% 10%;
+}
+
+.bg-f-contact {
+    background: gray;
+}
+
+
+/*FAQS  begin*/
+.FAQS {
+    margin: 4% 0;
+}
+.accordion {
+    background-color: #163547;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1% 0% auto;
+    font-weight: bold;
+}
+
+.active, .accordion:hover {
+    background-color: #e5293b; 
+    color: #fff;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+/*FAQS  end*/
+
+
+/* our WORK*/
+
+
+.tab-content .card {
+    border: none;
+    padding: 1%;
+
+}
+
+.our-top-list {
+    margin-top: 3%;
+}
+.favorite-bg {
+    background-color: #163547;
+}
+
+.mirror-img-carousel {
+    width: 500px;
+    height: auto;
+    padding: 2%;
+    margin-left: 13%;
+}
+
+
+/* our WORK  end*/
