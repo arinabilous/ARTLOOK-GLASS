@@ -30,6 +30,7 @@
     overflow: hidden;
 }
 
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -68,17 +69,19 @@
 .logoText {
     text-shadow: 3px 3px rgba(3, 3, 3, 0.8);
     background: #0b7dda;
-    padding: 1% 2%;
+    padding: 1%;
 }
 .imglogo {
     width:90px;
     height:90px;
-    margin:5%;
+    margin:5% 0 2% 5%;
 }
 
 .imgnav {
     margin: 2%;
-    border: 3px solid blue;
+    padding: 5%;
+    height: 300px;
+    width: 250px;
 }
 
 .textnavtop {
@@ -145,9 +148,11 @@ form.example input[type=text] {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position:absolute;
+    width:100%;
+    margin-left: -50%;
+    min-width: 600px;
     background-color: #f1f1f1;
-    min-width: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
 }
@@ -277,15 +282,16 @@ form.example input[type=text] {
 /* The Modal end */
 
 .GlassWork {
-    margin: 5% auto;
+    margin: 5% 1%;
 }
 .GlassWorkTitle {
-    margin: 1% 5% auto;
+    margin: 1% 2% auto;
 }
 /*img overlay work*/
 .containerglass {
     position: relative;
-    width: 50%;
+    width: 100%;
+    border: none;
   }
   
   .imageglass {
@@ -354,7 +360,7 @@ form.example input[type=text] {
 
 .video-text {
     border: none;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .stockproducts .card-body  {
