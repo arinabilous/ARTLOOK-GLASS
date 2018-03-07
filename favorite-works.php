@@ -1,98 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New York Tempering Glass</title>
-    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="css/style.css" rel='stylesheet' type="text/css">
-
-</head>
-
-<body>
-
-    <button onclick="topFunction()" id="TOP" title="Go to top">
-        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-        <br>UP</button>
-    <!-- nav-->
-
-    <nav class="navbar navbar-expand-lg  text-white color-nav nav1">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <div class="col-4 row">
-                <div class="co-3">
-                    <a class="navbar-brand text-white" href="index.html">
-                        <img src="img/logo NYTG.jpg" class="imglogo">
-                    </a>
-                </div>
-                <div class="co-8 textnavtop">
-                    <a class="navbar-brand text-white" href="index.html">
-                        <b>
-                            <h2>
-                                <span class="textnav logoText">New York Tempering Glass</span>
-                            </h2>
-                        </b>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-7 row">
-                <div class="col-8">
-                    <ul class="nav topnav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="blog.html" target="_blank">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="faqs.html" target="_blank">FAQ</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.html" target="_blank">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <h2>
-                        <i class="fa fa-phone fa-x" aria-hidden="true"></i> +1 646-893-8335</h2>
-                </div>
-
-
-
-            </div>
-            <div class="2">
-
-                <form class="form-inline my-2 my-lg-0" action="action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </form>
-            </div>
-    </nav>
-
-
+<?php
+include_once('header.php');
+?>
 
 
 
 
     <!-- our WORK-->
     
-
-<div class="container-fluid row">
-    <div class="col-1"></div>
+<div class="container-fluid">
+ <div class="row">
+    <div class="col-md-1"></div>
     <div class="nav flex-column nav-pills our-top-list" id="v-pills-tab" role="tablist" aria-orientation="vertical">
         <a class="nav-link active" id="v-pills-BACKSPLASH-tab" data-toggle="pill" href="#v-pills-BACKSPLASH" role="tab" aria-controls="v-pills-BACKSPLASH"
             aria-selected="true">BACKSPLASH</a>
@@ -119,14 +36,13 @@
                 aria-selected="false">Glass shelves</a>
     </div>
 
-
-    <div class="tab-content col-8" id="v-pills-tabContent">
+    <div class="tab-content col-12 col-md-8" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-BACKSPLASH" role="tabpanel" aria-labelledby="v-pills-BACKSPLASH-tab">
             <h2 class="text-center">BACKSPLASH</h2>
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/S1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/S1.jpg" alt="Glass backsplash">
                 
                 </div>
                 <div class="card">
@@ -153,34 +69,34 @@
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/backsplash.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/backsplash.jpg" alt="Glass backsplash">
             
                 </div>
                 
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-08-29.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-08-29.jpg" alt="Glass backsplash">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-11-04 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-11-04 (1).jpg" alt="Glass backsplash">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-06-23 (3).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-06-23 (3).jpg" alt="Glass backsplash">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-09-16 (2).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2016-09-16 (2).jpg" alt="Glass backsplash">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2017-10-13.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/BACKSPLASH/2017-10-13.jpg" alt="Glass backsplash">
             
                 </div>
             </div>
@@ -191,7 +107,7 @@
             <h2 class="text-center">GLASS FLOOR</h2>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/2017-07-26.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/2017-07-26.jpg" alt="Glass floor">
             
                 </div>
                 <div class="card">
@@ -231,13 +147,13 @@
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/508.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/508.jpg" alt="Glass floor">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/2.jpg" alt="Glass floor">
                 
                 </div>
                 <div class="card favorite-bg">
@@ -259,12 +175,12 @@
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/3.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/3.jpg" alt="Glass floor">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/512.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS FLOOR/512.jpg" alt="Glass floor">
             
                 </div>
             </div>
@@ -277,11 +193,11 @@
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/R3.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/R3.jpg" alt="Glass partition">
             
                 </div>
                 <div class="card">
-                        <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/6.jpg" alt="Glass partition">
             
                 </div>
             
@@ -289,34 +205,34 @@
             
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2016-07-22 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2016-07-22 (1).jpg" alt="Glass partition">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/10.jpg" alt="Card image cap">
-            
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2017-07-18.jpg" alt="Card image cap">
-            
-                </div>
-            
-                <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/WP_20160813_16_41_08_Pro.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/10.jpg" alt="Glass partition">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2016-09-10 (2).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2017-07-18.jpg" alt="Glass partition">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/D1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/WP_20160813_16_41_08_Pro.jpg" alt="Glass partition">
+            
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/2016-09-10 (2).jpg" alt="Glass partition">
+            
+                </div>
+            
+                <div class="card">
+                    <img class="card-img-top" src="img/PORTFOLIO/GLASS PARTITION/D1.jpg" alt="Glass partition">
             
                 </div>
             </div>
@@ -334,57 +250,57 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item favorite-bg active">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/WIRE GLASS BLOTCHY HEAVY.png" alt="First slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/WIRE GLASS BLOTCHY HEAVY.png" alt="Mirror WIRE GLASS BLOTCHY HEAVY">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>WIRE GLASS BLOTCHY HEAVY</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/SPOTTY ANTIQUE.png" alt="Second slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/SPOTTY ANTIQUE.png" alt="Mirror SPOTTY ANTIQUE">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="text-dark">SPOTTY ANTIQUE</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/SMOKE ANTIQUE.png" alt="Third slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/SMOKE ANTIQUE.png" alt="Mirror SMOKE ANTIQUE">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>SMOKE ANTIQUE</h5>
                                 </div>
                             </div>
 
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/MEDIUM MERCURY.png" alt="First slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/MEDIUM MERCURY.png" alt="Mirror MEDIUM MERCURY">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>MEDIUM MERCURY</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/LITE MERCURY.png" alt="Second slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/LITE MERCURY.png" alt="Mirror LITE MERCURY">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>LITE MERCURY</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/HEAVY MERCURY.png" alt="Third slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/HEAVY MERCURY.png" alt="Mirror HEAVY MERCURY">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>HEAVY MERCURY</h5>
                                 </div>
                             </div>
 
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/GOLD VEIN ANTIQUE.png" alt="First slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/GOLD VEIN ANTIQUE.png" alt="Mirror GOLD VEIN ANTIQUE">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="text-dark">GOLD VEIN ANTIQUE</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/FRENCH ANTIQUE LITE.png" alt="Second slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/FRENCH ANTIQUE LITE.png" alt="Mirror FRENCH ANTIQUE LITE">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>FRENCH ANTIQUE LITE</h5>
                                 </div>
                             </div>
                             <div class="carousel-item favorite-bg">
-                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/FRENCH ANTIQUE DARK.png" alt="Third slide">
+                                <img class="d-block w-75 mirror-img-carousel" src="img/mirror/FRENCH ANTIQUE DARK.png" alt="Mirror FRENCH ANTIQUE DARK">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>FRENCH ANTIQUE DARK</h5>
                                 </div>
@@ -419,8 +335,8 @@
                             Tempering Glass.</p>
                             <div class="row" style="margin-top:1%;">
                                 <div class="col-5">
-                                    <button type="submit" class="btn color-nav text-white" id="myBtn">
-                                        Please Choose Shape</button>
+                                    <button type="submit" class="btn color-nav text-white" id="myBtn"><a class="text-white" href="http://artlook.ca.mocha2005.mochahost.com/finalv/">
+                                        Please Choose Shape</a></button>
                             
                                 </div>
                                 <div class="col-7">
@@ -468,7 +384,7 @@
             
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/2017-06-23 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/2017-06-23 (1).jpg" alt="Mirror ANTIQUE MIRROR">
                 
                 </div>
             
@@ -503,34 +419,34 @@
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/Copy of T3.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/Copy of T3.jpg" alt="Mirror">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/unknown.jpg" alt="Card image cap">
-            
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/D1.jpg" alt="Card image cap">
-            
-                </div>
-            
-                <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/2017-05-30.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/unknown.jpg" alt="Mirror">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/2017-08-25 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/D1.jpg" alt="Mirror">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/Liz5.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/2017-05-30.jpg" alt="Mirror">
+            
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/2017-08-25 (1).jpg" alt="Mirror">
+            
+                </div>
+            
+                <div class="card">
+                    <img class="card-img-top" src="img/PORTFOLIO/MIRROR/ANTIQUE MIRROR/Liz5.jpg" alt="Mirror">
             
                 </div>
             </div>
@@ -582,29 +498,29 @@
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pf.png" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pf.png" alt="Glass pool fence">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/20150813_185302.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/20150813_185302.jpg" alt="Glass pool fence">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/20150813_185351.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/20150813_185351.jpg" alt="Glass pool fence">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pool fence 3.png" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pool fence 3.png" alt="Glass pool fence">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pool fence 5.png" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/POOL FENCE/pool fence 5.png" alt="Glass pool fence">
             
                 </div>
             </div>
@@ -616,7 +532,7 @@
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/artlook-1273.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/artlook-1273.jpg" alt="Shower door">
             
                 </div>
             
@@ -636,23 +552,23 @@
             
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/2.jpg" alt="Shower door">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/2018-01-30.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/2018-01-30.jpg" alt="Shower door">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/Samir.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/Samir.jpg" alt="Shower door">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/SD_Ronald.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/SHOWER DOOR/SD_Ronald.jpg" alt="Shower door">
             
                 </div>
             </div>
@@ -666,13 +582,13 @@
                 <div class="card">
                     <h5 class="card-title text-center text-dark">
                         Plate hinque </h5>
-                    <img class="card-img-top" src="img/brass/2018-02-16_224847.png" alt="Card image cap" style="margin-top: 3%">
+                    <img class="card-img-top" src="img/brass/2018-02-16_224847.png" alt="Brass" style="margin-top: 3%">
                     <h5 class="card-title text-center text-dark">
                          Glass clamps</h5>
-                    <img class="card-img-top" src="img/brass/2018-02-16_225008.png" alt="Card image cap" style="margin-top: 3%">
+                    <img class="card-img-top" src="img/brass/2018-02-16_225008.png" alt="Brass" style="margin-top: 3%">
                     <h5 class="card-title text-center text-dark">
                         Glass handles</h5>
-                    <img class="card-img-top" src="img/brass/2018-02-16_225037.png" alt="Card image cap" style="margin-top: 3%">
+                    <img class="card-img-top" src="img/brass/2018-02-16_225037.png" alt="Brass" style="margin-top: 3%">
                     
                 </div>
                 <div class="card">
@@ -682,28 +598,28 @@
                     
                     <div class=" row">
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/1.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/1.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Framless shower Doors</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/2.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/2.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Satin broshed NY</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/3.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/3.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Framless shower Doors NY</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/4.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/4.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Framless shower Doors</h5>
                     
@@ -712,27 +628,27 @@
                     </div>
                     <div class="card-group">
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/5.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/5.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Antique brass</h5>
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/6.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/6.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Brushed copper</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/7.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/7.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Gun metal</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/8.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/8.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Brass</h5>
                     
@@ -741,27 +657,27 @@
                     </div>
                     <div class="card-group">
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/9.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/9.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Glod plated</h5>
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/10.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/10.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Ultra brass</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/11.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/11.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Oil rubbed bronze</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/12.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/12.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Antique bronze</h5>
                     
@@ -770,27 +686,27 @@
                     </div>
                     <div class="card-group">
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/13.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/13.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Brushed nickel</h5>
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/15.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/15.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Polished copper</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/16.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/16.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Satin brass</h5>
                     
                             </div>
                         </div>
                         <div class="card col-3">
-                            <img class="card-img-top" src="img/brass/16.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/brass/16.png" alt="Brass">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-dark">Antique brushed copper</h5>
                     
@@ -811,7 +727,7 @@
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2017-08-04 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2017-08-04 (1).jpg" alt="Glass table top">
             
                 </div>
                 <div class="card">
@@ -834,8 +750,8 @@
                         </p>
                         <div class="row" style="margin-top:1%;">
                             <div class="col-5">
-                                <button type="submit" class="btn color-nav text-white" id="myBtn">
-                                    Please Choose Shape</button>
+                                <button type="submit" class="btn color-nav text-white" id="myBtn"><a class="text-white" href="http://artlook.ca.mocha2005.mochahost.com/finalv/">
+                                    Please Choose Shape</a></button>
 
                             </div>
                             <div class="col-7">
@@ -855,7 +771,7 @@
                         <div class="modal-content">
                             <span class="close">&times;</span>
                     
-                            <iframe id="myFrame" src="http://www.nytg.nyc/" style="height:800px;width:100%"></iframe>
+                            <iframe id="myFrame" src="http://artlook.ca.mocha2005.mochahost.com/finalv/" style="height:800px;width:100%"></iframe>
                     
                     
                     
@@ -871,35 +787,35 @@
             
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2 (1).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2 (1).jpg" alt="Glass table top">
                     
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2016-09-26 (2).jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2016-09-26 (2).jpg" alt="Glass table top">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/Copy of W3.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/Copy of W3.jpg" alt="Glass table top">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/IMG_1268.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/IMG_1268.jpg" alt="Glass table top">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2016-09-20.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2016-09-20.jpg" alt="Glass table top">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2017-12-12.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/TABLE TOP/2017-12-12.jpg" alt="Glass table top">
             
                 </div>
             </div>
@@ -910,7 +826,7 @@
 
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/MOXI 046.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/MOXI 046.jpg" alt="Glass shelves">
             
                 </div>
                 <div class="card">
@@ -927,8 +843,8 @@
                         separately. Most of our in-stock glass shelves are in pre-made sizes and include the necessary glass shelf hardware.</p>
                             <div class="row" style="margin-top:1%;">
                                 <div class="col-5">
-                                    <button type="submit" class="btn color-nav text-white" id="myBtn">
-                                        Please Choose Shape</button>
+                                    <button type="submit" class="btn color-nav text-white" id="myBtn"><a class="text-white" href="http://artlook.ca.mocha2005.mochahost.com/finalv/">Please Choose Shape</a>
+                                        </button>
                             
                                 </div>
                                 <div class="col-7">
@@ -948,7 +864,7 @@
             
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt027w.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt027w.jpg" alt="Glass shelves">
             
                 </div>
             
@@ -959,309 +875,62 @@
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt024w.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt024w.jpg" alt="Glass shelves">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt026w.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/gt026w.jpg" alt="Glass shelves">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/Slatt-Wall-Slatrail.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/Slatt-Wall-Slatrail.jpg" alt="Glass shelves">
                 
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/2017-09-20.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/2017-09-20.jpg" alt="Glass shelves">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/65081-2153907.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/65081-2153907.jpg" alt="Glass shelves">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/Glass Shelf Brackets As Decorative Shelves.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/Glass Shelf Brackets As Decorative Shelves.jpg" alt="Glass shelves">
             
                 </div>
             </div>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/free-floating-glass-shelves-glass-shelf-brackets-floating-on-air-7546-best-interior.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/free-floating-glass-shelves-glass-shelf-brackets-floating-on-air-7546-best-interior.jpg" alt="Glass shelves">
             
                 </div>
             
                 <div class="card">
-                    <img class="card-img-top" src="img/PORTFOLIO/shelves/rectangle-floating-glass-shelf-12-x-24-w-chrome-brackets-kitchen_23973097.jpeg" alt="Card image cap">
+                    <img class="card-img-top" src="img/PORTFOLIO/shelves/rectangle-floating-glass-shelf-12-x-24-w-chrome-brackets-kitchen_23973097.jpeg" alt="Glass shelves">
             
                 </div>
             </div>
         </div>
     </div>
-    </div>
+  </div>
+</div>
 
 
-    <!--  about us-->
     
-    <div class="card-group row aboutus">
-        <div class="col-2">
-            <img class="card-img-top logo-f" src="img/logo NYTG.jpg" alt="logo">
-        </div>
-        <div class="card col-8  aboutus-p">
-            <div class="text-center">
-                <h1 style="margin:2%;">About us</h1>
-            </div>
-            <div class="card-body">
-                <p class="aboutus-p">New York Tempering Glass provides glass and glazing services in new york, whether its for your home, business
-                    or personal requirements.
-                    <br>
-                    <br> Our Products and services include decorative laminated glass,custom glass backsplashes,color glass, color
-                    mirror, antique mirror, emergency glass replacement, window repairs, glass door repairs, mirror installations,
-                    glass for balustrades, tinted and other specialty glass types and more. We offer a wide range of glass products
-                    in brooklyn,queens,manhattan,staten island,the bronx,nassau county,suffolk county,long island ny,jersey city,new
-                    jersey for use in any application.
-                    <br> At custom cut glass nyc we are proud of ourselves on providing quality products backed by superior service,
-                    while maintaining competitive prices.
-                    <br>
-                    <br>
-                    <br> Services Shower Door Installation & Repair, Window Installation, Window Repair, Emergency Glass Replacement,
-                    Mirror Installations</p>
-    
-            </div>
-        </div>
-        <div class="col-2">
-            <img class="card-img-top logo-f" src="img/logo NYTG.jpg" alt="logo">
-        </div>
-    </div>
 
-    
+ <?php
+include_once('about-us.php')
+?>   
 
  
 
-    <!-- footer-->
-    <footer class="jumbotron jumbotron-fluid text-white" style="background-image: url(img/footer1.jpg" )>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-1 col-lg-2"></div>
-                <div class="col-10 col-lg-8">
-    
-                    <div class="row card-group fotershadow">
-    
-                        <div class="col-md-10 col-xl-6  footer-bg">
-    
-    
-                            <img class="card-img-top logo-f" src="img/logo NYTG.jpg" alt="logo">
-    
-                            <a class="navbar-brand text-white" href="index.html">
-                                <b>
-                                    <h1>
-                                        <span class="textnav logoText">New York Tempering Glass</span>
-                                    </h1>
-                                </b>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text">New York Tempering Glass provides glass and services in new york, whether its for your home,
-                                    business or personal requirements. At custom cut glass nyc we are proud of ourselves on providing
-                                    quality products backed by superior service, while maintaining competitive prices..</p>
-                            </div>
-                        </div>
-    
-                        <div class="col-md-6 col-xl-3  footer-bg">
-    
-                            <div class="card-body">
-                                <p>
-                                    <a href="#index.html" class="card-title card-text">
-                                        <h4>Menu</h4>
-                                        <hr>
-                                    </a>
-                                </p>
-                                <p></p>
-                                <a href="#we" class="card-text">Home</a>
-                                </p>
-                                <p></p>
-                                <a href="blog.html" class="card-text">Blog</a>
-                                </p>
-                                <p></p>
-                                <a href="faqs.html" class="card-text">FAQ</a>
-                                </p>
-                            </div>
-                        </div>
-    
-    
-                        <div class="col-md-6 col-xl-3 footer-bg">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <h4 id="contact">Contact Us
-                                    </h4>
-                                    <hr>
-                                </p>
-                                <p class="card-text"></p>
-                                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
-                                <span>199 Avenue T, </span>
-                                <br>
-                                <p class="span-f ">Brooklyn NY 11223</p>
-                                </p>
-    
-                                <p class="card-text">
-                                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-                                    <span> +1 646-893-8335 </span>
-                                    <br>
-                                </p>
-                                <p class="card-text">
-                                    <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-                                    <span>Email: newyorktemperingglass@gmail.com</span>
-                                </p>
-                                <br>
-                            </div>
-                        </div>
-    
-                    </div>
-    
-                </div>
-    
-            </div>
-    
-            <div class="col-1 col-lg-2"></div>
-        </div>
-    
-        <hr class="footer2-hr">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-7 d-flex justify-content-center">
-                    <p class="p-2">New York Tempering Glass 2018 © All Rights Reserved</p>
-    
-    
-                </div>
-    
-                <div class="col-lg-5 margin justify-content-center ">
-                    <a class="a-2">
-                        <b>
-                            <i class="fa fa-facebook-square fa2-x i" aria-hidden="true"></i>
-                        </b>
-                    </a>
-                    <a class="a-2">
-                        <b>
-                            <i class="fa fa-twitter fa2-x i" aria-hidden="true"></i>
-                        </b>
-                    </a>
-                    <a class="a-2">
-                        <b>
-                            <i class="fa fa-instagram fa2-x i" aria-hidden="true"></i>
-                        </b>
-                    </a>
-                    <a class="a-2">
-                        <b>
-                            <i class="fa fa-google-plus fa2-x i" aria-hidden="true"></i>
-                        </b>
-                    </a>
-                    <h2 class="h-2 ">
-                        <i class="fa fa-phone fa-x i" aria-hidden="true"></i> +1 646-893-8335</h2>
-    
-                </div>
-            </div>
-        </div>
-        </div>
-    </footer>
-    
-    
-    
-    <!-- scripty-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
-    <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
-    <script src="js/wow.min.js"></script>
-
-    <script>
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on the button, open the modal 
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        function initMap() {
-            var myLatLng = {
-                lat: 40.599081,
-                lng: -73.977726
-            };
-
-            var map = new google.maps.Map(document.getElementById('map2'), {
-                zoom: 14,
-                center: myLatLng,
-                disableDefaultUI: true
-            });
-
-            var image = {
-                url: "img/marker1.png", // url
-                scaledSize: new google.maps.Size(45, 50), // size
-            };
-
-            var marker = new google.maps.Marker({
-                map: map,
-                icon: image,
-                title: 'Contact Us',
-                position: {
-                    lat: 40.599081,
-                    lng: -73.977726
-                }
-            });
-        }
-    </script>
-    <script>
-        <script src="js/wow.min.js"></script>
-    <script>
-                  new WOW().init();
-    </script>
-    </script>
-    
-    
-    <script>
-                            window.onscroll = function() {
-                            scrollFunction()
-                        };
-
-                    function scrollFunction() {
-                    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-                            document.getElementById("TOP").style.display = "block";
-                        } else {
-                            document.getElementById("TOP").style.display = "none";
-                        }
-                    }
-
-                    function topFunction() {
-                            document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                    }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO6gJkm9-qPClrgI2O5zirijUV3KuVZow&callback=initMap"></script>
-    
-    
-    </body>
-    
-    </html>
+<?php
+include_once('footer.php')
+?>
