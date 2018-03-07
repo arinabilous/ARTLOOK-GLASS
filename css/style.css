@@ -4,6 +4,14 @@
     
 }
 
+.border-none {
+    border: none;
+}
+
+.button-width {
+    width: 7rem;
+}
+
 #TOP {
     display: none;
     position: fixed;
@@ -51,6 +59,13 @@
     border-bottom: 3px solid rgb(247, 247, 247);
 }
 
+.a-nav2 {
+    margin: 4% 4%;
+    font-size: 35px;
+    text-decoration:none;
+    color: #163547;
+}
+
 
 
 .bg-hr {
@@ -68,13 +83,12 @@
 
 .logoText {
     text-shadow: 3px 3px rgba(3, 3, 3, 0.8);
-    background: #0b7dda;
     padding: 1%;
 }
 .imglogo {
     width:90px;
     height:90px;
-    margin:5% 0 2% 5%;
+    margin:5% 0 2% 10%;
 }
 
 .imgnav {
@@ -133,10 +147,10 @@ form.example input[type=text] {
 .dropbtn {
     background-color: #163547;
     color: white;
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
     border: none;
-    margin: 5px 5px;
+    margin: 10px 5px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -149,12 +163,18 @@ form.example input[type=text] {
 .dropdown-content {
     display: none;
     position:absolute;
-    width:100%;
-    margin-left: -50%;
-    min-width: 600px;
+    min-width: 20rem;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
+}
+.left1 {
+    margin-left: -5%;
+    
+}
+.left2 {
+    margin-left: -80%;
+    
 }
 
 /* Links inside the dropdown */
@@ -264,12 +284,24 @@ form.example input[type=text] {
     height: 100%; /* Could be more or less, depending on screen size */
 }
 
+/* Modal Content/Box */
+.modal-content-partitions {
+    background-color: #163547;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    height: 90%; /* Could be more or less, depending on screen size */
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-left: 95%;
+    padding: 2%;
 }
 
 .close:hover,
@@ -683,3 +715,117 @@ a:active {
 
 
 /* our WORK  end*/
+
+/* Pool Fencing Systems  begin*/
+
+.pool {
+    margin-top: 2%;
+
+}
+
+.pool .card {
+    margin-top: 1%;
+    min-height: 200px;
+
+}
+
+.pool-img-posts {
+    width:80%; 
+    padding-left: 15%;
+    padding-top: 10%;
+}
+/* Pool Fencing Systems  end*/
+
+
+/* GLASS PARTITIONSystems  begin*/
+
+.img-partitions {
+    width:100%; 
+    height:50%;
+     padding:1%
+
+}
+
+/* GLASS PARTITIONSystems  end*/
+
+/* Glass Shower Doors  begin*/
+
+.img-Shower {
+    width:75%; 
+    height:100%;
+    margin: auto;
+
+}
+
+.br-glass-f {
+    background: #f4f7f9;
+    padding: 3%;
+}
+
+/* Glass Shower Doors  end*/
+
+.bg-mirror {
+    background-color: #163547;
+    margin:3% 0;
+
+}
+
+.bg-mirror-installation {
+    background: #a0afbd;
+    color: #163547;
+}
+
+.bg-shelves {
+    background: #163547;
+    color: #b9b9b9;
+}
+
+
+/* Glass table top  begin*/
+#hero1{
+ background: url(http://inertiahome.com/wp-content/uploads/1355a-modern-dining-tables-top-hd-photo.jpg);
+ 
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+#hero2{background: url(http://www.pauletteshomes.com/wp-content/uploads/2015/05/furniture-round-black-glass-top-dining-table-with-silver-steel-vase-plus-silver-steel-chairs-having-black-seat-and-back-on-ceramics-flooring-modern-design-of-glass-top-tables-with-wood-base-brings-enc.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+.hero, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.4) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute; 
+  top:50%; 
+  height:10em;  
+  width:100%;
+}
+
+.content p{ 
+  color:#fff;
+}
+
+.hero h1, .hero p{ 
+  color:#fff;
+}
+
+.content h1, {
+  color:#333;
+}
+
+/* Glass table top  end*/
